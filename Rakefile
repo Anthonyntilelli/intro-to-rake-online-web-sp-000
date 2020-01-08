@@ -31,3 +31,8 @@ namespace :db do
      require_relative './db/seeds.rb'
   end
 end
+
+desc 'Default action'
+task :default do
+  puts "I do things when rake is called"
+end
