@@ -51,7 +51,3 @@ class Student
     DB[:conn].execute(sql)
   end
 end
-
-task :default do
-  puts "I do things when rake is called"
-end
